@@ -18,9 +18,8 @@ public class PhotoListAdapter extends BaseAdapter {
     Context context;
     int [] imageId;
     private static LayoutInflater inflater=null;
-    public PhotoListAdapter(Activity activity, String[] photoTitles, int[] photoSrc, String[] photodesc) {
+    public PhotoListAdapter(Activity activity, String[] photoTitles, int[] photoSrc) {
         titles=photoTitles;
-        descriptions = photodesc;
         context=activity;
         imageId=photoSrc;
         inflater = ( LayoutInflater )context.
@@ -48,10 +47,8 @@ public class PhotoListAdapter extends BaseAdapter {
             rowView = inflater.inflate(R.layout.photo_list_item, null);
         TextView tv=(TextView) rowView.findViewById(R.id.image_title);
         ImageView img=(ImageView) rowView.findViewById(R.id.image_content);
-        TextView desc=(TextView) rowView.findViewById(R.id.image_desc);
         tv.setText(titles[position]);
         img.setImageResource(imageId[position]);
-        desc.setText(descriptions[position]);
         return rowView;
     }
 }

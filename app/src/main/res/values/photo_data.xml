@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="photo_titles">
+        <item>Fan Poster</item>
+        <item>Baba</item>
+        <item>Enthiran</item>
+        <item>Thalapathi</item>
+        <item>Thillumullu</item>
+    </string-array>
+
+
+</resources>
