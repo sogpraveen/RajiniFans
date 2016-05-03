@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Five Pictures</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_photo1">Photo1</string>
+
+    <string name="title_activity_photo_list">Five Photos of Nature</string>
+    <string name="title_activity_photo">Photo</string>
+
+    <string name="main_activity_heading_text">5 Best Rajini Photos</string>
+    <string name="main_activity_button_text">View\nPhotos</string>
+
+</resources>
